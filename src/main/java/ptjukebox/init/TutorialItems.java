@@ -26,7 +26,8 @@ public class TutorialItems {
 	
 	public static final ItemRecord KISSTHIS_RECORD = new ItemTutorialRecord("kissthis", TutorialMusic.kissthis, "kissthis_record");
 	public static final ItemRecord PERSPECTIVES_RECORD = new ItemTutorialRecord("perspectives", TutorialMusic.perspectives, "perspectives_record");
-	
+	public static final ItemRecord KISSASS_RECORD = new ItemTutorialRecord("kissass", TutorialMusic.kissass, "kissass_record");
+		
 	
 	@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 	public static class ItemRegistration {
@@ -36,7 +37,8 @@ public class TutorialItems {
 		public static void registerItems(final RegistryEvent.Register<Item> event) {
 			final Item[] items = {
 					KISSTHIS_RECORD,
-					PERSPECTIVES_RECORD
+					PERSPECTIVES_RECORD,
+					KISSASS_RECORD
 			};
 			
 			for(final Item item : items) {

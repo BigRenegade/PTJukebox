@@ -15,5 +15,14 @@
         "stream": true
       }
     ]
+  },
+  "kissass": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ptjukebox:kissass",
+        "stream": true
+      }
+    ]
   }
 }

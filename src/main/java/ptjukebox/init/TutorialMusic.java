@@ -17,10 +17,12 @@ public class TutorialMusic {
 	
 	public static SoundEvent perspectives;
 	public static SoundEvent kissthis;
+	public static SoundEvent kissass;
 	
 	public static void registerSounds() {
 		perspectives = registerSound("perspectives");
 		kissthis = registerSound("kissthis");
+		kissass = registerSound("kissass");
 	}
 	
 	private static SoundEvent registerSound(String soundName) {
