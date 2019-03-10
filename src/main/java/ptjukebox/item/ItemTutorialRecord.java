@@ -11,9 +11,9 @@ import ptjukebox.Reference;
 
 public class ItemTutorialRecord extends ItemRecord {
 
-	public ItemTutorialRecord(String name, SoundEvent soundIn, String u) {
+	public ItemTutorialRecord(String name, SoundEvent soundIn) {
 		super(name, soundIn);
-		this.setUnlocalizedName(u);
+		this.setUnlocalizedName(name);
 		this.setRegistryName(Reference.MOD_ID + ":" + name);
 	}
 

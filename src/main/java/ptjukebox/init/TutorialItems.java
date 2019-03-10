@@ -24,9 +24,9 @@ import net.minecraftforge.oredict.OreDictionary;
 public class TutorialItems {
 	
 	
-	public static final ItemRecord KISSTHIS_RECORD = new ItemTutorialRecord("kissthis", TutorialMusic.kissthis, "kissthis_record");
-	public static final ItemRecord PERSPECTIVES_RECORD = new ItemTutorialRecord("perspectives", TutorialMusic.perspectives, "perspectives_record");
-	public static final ItemRecord KISSASS_RECORD = new ItemTutorialRecord("kissass", TutorialMusic.kissass, "kissass_record");
+	public static final ItemRecord KISSTHIS_RECORD = new ItemTutorialRecord("kissthis", TutorialMusic.kissthis);
+	public static final ItemRecord PERSPECTIVES_RECORD = new ItemTutorialRecord("perspectives", TutorialMusic.perspectives);
+	public static final ItemRecord KISSASS_RECORD = new ItemTutorialRecord("kissass", TutorialMusic.kissass);
 		
 	
 	@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
