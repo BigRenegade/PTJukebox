@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "ptjukebox:items/perspectives" }
+        "normal": { "model": "ptjukebox:items/record" }
     }
 }

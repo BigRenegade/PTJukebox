@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "ptjukebox:items/kissthis" }
+        "normal": { "model": "ptjukebox:items/record" }
     }
 }
