@@ -1,7 +1,7 @@
 package ptjukebox;
 
-import ptjukebox.init.TutorialItems;
-import ptjukebox.init.TutorialMusic;
+import ptjukebox.init.ItemBase;
+import ptjukebox.init.MusicRecords;
 import ptjukebox.proxy.IProxy;
 import ptjukebox.render.RenderingRegistry;
 import net.minecraft.enchantment.Enchantment;
@@ -24,17 +24,17 @@ import net.minecraftforge.fml.common.registry.ForgeRegistries;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_VERSIONS)
-public class Tutorial {
+public class PTJukebox {
 	
 	@Instance(Reference.MOD_ID)
-	public static Tutorial instance;
+	public static PTJukebox instance;
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
 	public static IProxy proxy;
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
-		TutorialMusic.registerSounds();
+		MusicRecords.registerSounds();
 		RenderingRegistry.registerRenders();
 		proxy.preInit(event);
 	}

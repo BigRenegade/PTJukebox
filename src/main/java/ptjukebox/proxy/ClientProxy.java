@@ -1,6 +1,6 @@
 package ptjukebox.proxy;
 
-import ptjukebox.Tutorial;
+import ptjukebox.PTJukebox;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.entity.EntityPlayerSP;
@@ -33,17 +33,17 @@ public class ClientProxy implements IProxy {
 
 	@Override
 	public EntityPlayerSP getPlayerFromContext(MessageContext ctx) {
-		return (ctx.side.isClient() ? Minecraft.getMinecraft().player : Tutorial.proxy.getPlayerFromContext(ctx));
+		return (ctx.side.isClient() ? Minecraft.getMinecraft().player : PTJukebox.proxy.getPlayerFromContext(ctx));
 	}
 
 	@Override
 	public WorldClient getWorldFromContext(MessageContext ctx) {
-		return (ctx.side.isClient() ? Minecraft.getMinecraft().world : Tutorial.proxy.getWorldFromContext(ctx));
+		return (ctx.side.isClient() ? Minecraft.getMinecraft().world : PTJukebox.proxy.getWorldFromContext(ctx));
 	}
 
 	@Override
 	public void addRunnableFromContext(MessageContext ctx, Runnable task) {
 		if(ctx.side.isClient()) Minecraft.getMinecraft().addScheduledTask(task);
-		else Tutorial.proxy.addRunnableFromContext(ctx, task);
+		else PTJukebox.proxy.addRunnableFromContext(ctx, task);
 	}
 }

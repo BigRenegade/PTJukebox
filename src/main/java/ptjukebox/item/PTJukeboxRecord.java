@@ -9,9 +9,9 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import ptjukebox.Reference;
 
-public class ItemTutorialRecord extends ItemRecord {
+public class PTJukeboxRecord extends ItemRecord {
 
-	public ItemTutorialRecord(String name, SoundEvent soundIn) {
+	public PTJukeboxRecord(String name, SoundEvent soundIn) {
 		super(name, soundIn);
 		this.setUnlocalizedName(name);
 		this.setRegistryName(Reference.MOD_ID + ":" + name);

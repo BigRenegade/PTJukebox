@@ -13,7 +13,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 @ObjectHolder(Reference.MOD_ID)
-public class TutorialMusic {
+public class MusicRecords {
 	
 	public static SoundEvent perspectives;
 	public static SoundEvent kissthis;

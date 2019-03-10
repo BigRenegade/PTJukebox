@@ -1,7 +1,7 @@
 package ptjukebox.init;
 
 import ptjukebox.Reference;
-import ptjukebox.item.ItemTutorialRecord;
+import ptjukebox.item.PTJukeboxRecord;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
@@ -21,12 +21,12 @@ import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 import net.minecraftforge.oredict.OreDictionary;
 
 @ObjectHolder(Reference.MOD_ID)
-public class TutorialItems {
+public class ItemBase {
 	
 	
-	public static final ItemRecord KISSTHIS_RECORD = new ItemTutorialRecord("kissthis", TutorialMusic.kissthis);
-	public static final ItemRecord PERSPECTIVES_RECORD = new ItemTutorialRecord("perspectives", TutorialMusic.perspectives);
-	public static final ItemRecord KISSASS_RECORD = new ItemTutorialRecord("kissass", TutorialMusic.kissass);
+	public static final ItemRecord KISSTHIS_RECORD = new PTJukeboxRecord("kissthis", MusicRecords.kissthis);
+	public static final ItemRecord PERSPECTIVES_RECORD = new PTJukeboxRecord("perspectives", MusicRecords.perspectives);
+	public static final ItemRecord KISSASS_RECORD = new PTJukeboxRecord("kissass", MusicRecords.kissass);
 		
 	
 	@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
