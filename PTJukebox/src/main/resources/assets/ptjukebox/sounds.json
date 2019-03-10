@@ -1,0 +1,19 @@
+{
+  "perspectives": {
+    "category": "record",
+    "sounds": [
+        { "name": "ptjukebox:perspectives",
+          "stream": true 
+        }
+    ]
+  },
+  "kissthis": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "ptjukebox:kissthis",
+        "stream": true
+      }
+    ]
+  }
+}

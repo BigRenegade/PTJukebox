@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ptjukebox",
+  "name": "Power Toys Jukebox",
+  "description": "Teaching people how to make mods for 1.12!",
+  "version": "1.0.0",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BigRenegade"],
+  "credits": "Everyone who makes this series possible!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
