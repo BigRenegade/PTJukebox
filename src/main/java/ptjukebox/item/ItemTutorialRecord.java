@@ -11,16 +11,10 @@ import ptjukebox.Reference;
 
 public class ItemTutorialRecord extends ItemRecord {
 
-	public String name;
-
 	public ItemTutorialRecord(String name, SoundEvent soundIn, String u) {
 		super(name, soundIn);
 		this.setUnlocalizedName(u);
 		this.setRegistryName(Reference.MOD_ID + ":" + name);
 	}
-	
-	@SubscribeEvent
-	public void registerItemModels() {
-		ModelLoader.setCustomModelResourceLocation(this, 0, new ModelResourceLocation(this.getRegistryName(), "inventory"));
-	}
+
 }

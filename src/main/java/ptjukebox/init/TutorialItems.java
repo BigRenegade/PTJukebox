@@ -2,7 +2,7 @@ package ptjukebox.init;
 
 import ptjukebox.Reference;
 import ptjukebox.item.ItemTutorialRecord;
-
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
@@ -12,6 +12,7 @@ import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemRecord;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.NonNullList;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -40,6 +41,7 @@ public class TutorialItems {
 			
 			for(final Item item : items) {
 				event.getRegistry().register(item);
+				ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
 				ITEMS.add(item);
 			}
 		}
