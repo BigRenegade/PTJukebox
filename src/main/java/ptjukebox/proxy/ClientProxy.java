@@ -33,17 +33,17 @@ public class ClientProxy implements IProxy {
 
 	@Override
 	public EntityPlayerSP getPlayerFromContext(MessageContext ctx) {
-		return (ctx.side.isClient() ? Minecraft.getMinecraft().player : PTJukebox.proxy.getPlayerFromContext(ctx));
+		return (ctx.side.isClient() ? Minecraft.getMinecraft().player : PTJukebox.iProxy.getPlayerFromContext(ctx));
 	}
 
 	@Override
 	public WorldClient getWorldFromContext(MessageContext ctx) {
-		return (ctx.side.isClient() ? Minecraft.getMinecraft().world : PTJukebox.proxy.getWorldFromContext(ctx));
+		return (ctx.side.isClient() ? Minecraft.getMinecraft().world : PTJukebox.iProxy.getWorldFromContext(ctx));
 	}
 
 	@Override
 	public void addRunnableFromContext(MessageContext ctx, Runnable task) {
 		if(ctx.side.isClient()) Minecraft.getMinecraft().addScheduledTask(task);
-		else PTJukebox.proxy.addRunnableFromContext(ctx, task);
+		else PTJukebox.iProxy.addRunnableFromContext(ctx, task);
 	}
 }

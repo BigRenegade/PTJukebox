@@ -1,13 +1,3 @@
-item.strawberry.name=Strawberry
-item.strawberry_seeds.name=Strawberry Seeds
-item.fly_helmet.name=Fly Helmet
-item.fly_chestplate.name=Fly Chestplate
-item.fly_leggings.name=Fly Leggings
-item.fly_boots.name=Fly Boots
-item.rock.name=Rock
-item.cutter.name=Cutter
-item.garnet_axe.name=Garnet Axe
-
 item.perspectives.name=Perspectives
 item.record.perspectives.desc=Kevin MacLeod - Perspectives
 item.kissthis.name=Kiss This
@@ -15,53 +5,12 @@ item.record.kissthis.desc=Aaron Tippin - Kiss This
 item.kissass.name=Kiss My Country Ass
 item.record.kissass.desc=Blake Shelton - Kiss My Country Ass
 
+container.jukebox=Jukebox
+tile.jukebox:jukebox.name=Jukebox
 
-
-
-item.itemdye.white.name=White Dye
-item.itemdye.orange.name=Orange Dye
-item.itemdye.magenta.name=Magenta Dye
-item.itemdye.light_blue.name=Light Blue Dye
-item.itemdye.yellow.name=Yellow Dye
-item.itemdye.lime.name=Lime Dye
-item.itemdye.pink.name=Pink Dye
-item.itemdye.gray.name=Gray Dye
-item.itemdye.silver.name=Silver Dye
-item.itemdye.cyan.name=Cyan Dye
-item.itemdye.purple.name=Purple Dye
-item.itemdye.blue.name=Blue Dye
-item.itemdye.brown.name=Brown Dye
-item.itemdye.green.name=Green Dye
-item.itemdye.red.name=Red Dye
-item.itemdye.black.name=Black Dye
-
-tile.purple_glowstone_fence.name=Purple Glowstone Fence
-tile.dual_furnace.name=Dual Furnace
-tile.strawberry_crop.name=Strawberry Crop
-tile.acid.name=Acid
-tile.weird_cobblestone.name=Weird Cobblestone
-tile.special_drop.name=Special Drop
-tile.easel.name=Easel
-tile.blocksewingmachine.name=Sewing Machine
-
-container.dual_furnace=Dual Furnace
-
-enchantment.fly=Fly
-effect.fly=Fly
-potion.effect.fly=Potion of Fly
-splash_potion.effect.fly=Splash Potion of Fly
-lingering_potion.effect.fly=Lingering Potion of Fly
-tipped_arrow.effect.fly=Arrow of Fly
-
-fluid.acid=Acid
-
-advancements.smelting.root.title=Smelters
-advancements.smelting.root.description=Time to get smelting!
-advancements.smelting.twofer.title=That's a Twofer
-advancements.smelting.twofer.description=Make a dual furnace.
-advancements.smelting.fly.title=Burning to Fly
-advancements.smelting.fly.description=Smelt yourself some fly armor.
-
-entity.Modded Iron Golem.name=Modded Iron Golem
-
-config.is_mod =Is CustomMod Loaded
+jukebox.pause=■
+jukebox.play=►
+jukebox.next=>>
+jukebox.previous=<<
+jukebox.nowplaying=Now Playing: 
+jukebox.paused=Playback Suspended

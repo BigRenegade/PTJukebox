@@ -1,0 +1,17 @@
+container.jukebox=Jukebox
+tile.jukebox:jukebox.name=Jukebox
+
+jukebox.pause=■
+jukebox.play=►
+jukebox.next=>>
+jukebox.previous=<<
+jukebox.nowplaying=Now Playing: 
+jukebox.paused=Playback Suspended
+
+item.perspectives.name=Perspectives
+item.record.perspectives.desc=Kevin MacLeod - Perspectives
+item.kissthis.name=Kiss This
+item.record.kissthis.desc=Aaron Tippin - Kiss This
+item.kissass.name=Kiss My Country Ass
+item.record.kissass.desc=Blake Shelton - Kiss My Country Ass
+

@@ -1,0 +1,38 @@
+{
+  "perspectives": {
+    "category": "record",
+    "sounds": [
+        { "name": "jukebox:perspectives",
+          "stream": true 
+        }
+    ]
+  },
+  "kissthis": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "jukebox:kissthis",
+        "stream": true
+      }
+    ]
+  },
+  "kissass": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "jukebox:kissass",
+        "stream": true
+      }
+    ]
+  },
+  "dierksbentley5150": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "jukebox:dierksbentley5150",
+        "stream": true
+      }
+    ]
+  }
+	
+}
